@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29609.76
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxCalculator", "TaxCalculator\TaxCalculator.csproj", "{A447E299-9731-4760-A0A2-77D18728CC57}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaxCalculator", "TaxCalculator\TaxCalculator.csproj", "{A447E299-9731-4760-A0A2-77D18728CC57}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TC.Core", "TC.Core\TC.Core.csproj", "{B4422308-FBDE-4811-95C8-AA1FE52856C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TC.Core", "TC.Core\TC.Core.csproj", "{B4422308-FBDE-4811-95C8-AA1FE52856C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TC.Services", "TC.Services\TC.Services.csproj", "{29CE2640-3B66-417F-A73E-E0A92D5DA820}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TC.Services", "TC.Services\TC.Services.csproj", "{29CE2640-3B66-417F-A73E-E0A92D5DA820}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxCalculatorTest", "TaxCalculatorTest\TaxCalculatorTest.csproj", "{A4849D30-AFF3-47AE-9062-CBC41F8034C8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{29CE2640-3B66-417F-A73E-E0A92D5DA820}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29CE2640-3B66-417F-A73E-E0A92D5DA820}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29CE2640-3B66-417F-A73E-E0A92D5DA820}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4849D30-AFF3-47AE-9062-CBC41F8034C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4849D30-AFF3-47AE-9062-CBC41F8034C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4849D30-AFF3-47AE-9062-CBC41F8034C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4849D30-AFF3-47AE-9062-CBC41F8034C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
