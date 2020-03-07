@@ -1,4 +1,4 @@
 ## SalaryCalculator made by Michail Katsarov 
-    Application recieve gross slary as input and calculate net income.
+    Application recieve gross salary as input and calculate net income.
 
 
