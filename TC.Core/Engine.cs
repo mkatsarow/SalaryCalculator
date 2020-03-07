@@ -17,7 +17,7 @@ namespace TC.Core
                       IWriter writer,
                       IReader reader)
         {
-            this.salaryService = salaryService 
+            this.salaryService = salaryService
                 ?? throw new ArgumentNullException(nameof(salaryService));
             this.writer = writer
                 ?? throw new ArgumentNullException(nameof(writer));
@@ -39,7 +39,7 @@ namespace TC.Core
                 {
                     input.IsValidInput();
                     var result = salaryService.CalculateNetSalary(decimal.Parse(input));
-                    writer.WriteLine(string.Format(GlobalMessages.netSalaryResult,result));
+                    writer.WriteLine(string.Format(GlobalMessages.netSalaryResult, result));
                 }
                 catch (Exception ex)
                 {

@@ -4,4 +4,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TC.Services\TC.Services.csproj" />
+  </ItemGroup>
+
 </Project>

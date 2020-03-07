@@ -9,7 +9,7 @@ using TC.Services.Contracts;
 
 namespace TaskTaxCalculator
 {
-    public class DiContainer 
+    public class DiContainer
     {
         public IServiceProvider BuildContainer()
         {
